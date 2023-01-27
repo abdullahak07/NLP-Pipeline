@@ -13,22 +13,12 @@ The code then uses the sklearn pipeline module to create a classification pipeli
  
  # Table
 
-|   | Original Content | New Content | Removed Words |
-|---|------------------|-------------|---------------|
-| 0 |                  |             |               |
-| 1 | After reaching his hotel in the city, RM revea...            | reach hotel city RM reveal stay day add step d... | [After, his, in, the, ,, that, his, would, be,...         |
-| 2 | Pardon me        | translation | Avast         |
-| 3 | Excuse me        | translation | Arr           |
-| 4 | Friend           | translation | Matey         |
-| 5 |                  |             |               |
-                                                     New_Content 	                                   Removed_Words
-0 		 	
-1 	RM aka Kim Namjoon was the first member to joi... 	RM aka Kim Namjoon member join BTS group relea... 	[was, the, first, to, ., The, their, on, ,, .,...
-2 	Billie Eilish's concert was held in Seoul, Sou... 	Billie Eilish concert hold Seoul South Korea a... 	['s, was, in, ,, and, it, was, by, ', and, -, ...
-3 	BTS ARMY y'all would be missing the members a ... 	BTS ARMY you miss member lot right BTS member ... 	[all, would, be, the, a, ,, ?, Well, ,, one, o...
-4 	BTS member Kim Seokjin aka Jin has the capacit... 	bts member Kim Seokjin aka Jin capacity create... 	[has, the, to, ., This, has, through, so, in, ...
-5 	BTS member J-Hope aka Jung Hoseok has reached ... 	bts member J Hope aka Jung Hoseok reach Chicag... 	[-, has, ., He, is, there, for, the, of, the, ...
-6 	In the video, J-Hope gave new glimpses of the ... 	video J Hope give new glimpse member desert ar... 	[In, the, ,, -, of, the, in, a, ., from, the, ...
-7 	BTS members Jungkook, J-Hope, Jin, RM, Suga, V... 	bts member Jungkook J Hope Jin RM Suga V Jimin... 	[,, -, ,, ,, ,, ,, and, are, ., Every, about, ...
-8 	It's Jungkook's 25th birthday today! The Golde... 	Jungkook 25th birthday today Golden Maknae BTS... 	[It, 's, 's, !, The, of, ,, is, one, of, the, ...
-9 	After BTS members - RM, Jin, Suga, J-Hope, Jim... 	BTS member RM Jin Suga J Hope Jimin V Jungkook... 	[After, -, ,, ,, ,, -, ,, ,, and, -, with, a, ...
+                                                   
+|   | Original Content                                   | New Content                                       | Removed Words                                     |
+|---|----------------------------------------------------|---------------------------------------------------|---------------------------------------------------|
+| 0 | After reaching his hotel in the city, RM revea...  | reach hotel city RM reveal stay day add step d... | [After, his, in, the, ,, that, his, would, be,... |
+| 1 | RM aka Kim Namjoon was the first member to joi...  | RM aka Kim Namjoon member join BTS group relea... | [was, the, first, to, ., The, their, on, ,, .,... |
+| 2 | Billie Eilish's concert was held in Seoul, Sou...  | Billie Eilish concert hold Seoul South Korea a... | ['s, was, in, ,, and, it, was, by, ', and, -, ... |
+| 3 | BTS ARMY y'all would be missing the members a ...  | BTS ARMY you miss member lot right BTS member ... | [all, would, be, the, a, ,, ?, Well, ,, one, o... |
+| 4 | BTS member Kim Seokjin aka Jin has the capacit...  | bts member Kim Seokjin aka Jin capacity create... | [has, the, to, ., This, has, through, so, in, ... |
+| 5 | BTS member J-Hope aka Jung Hoseok has reached ...  | bts member J Hope aka Jung Hoseok reach Chicag... | [-, has, ., He, is, there, for, the, of, the, ... |
