@@ -12,7 +12,12 @@ The code then uses the sklearn pipeline module to create a classification pipeli
  The methodology in this code is using the TF-IDF (term frequency-inverse document frequency) text representation method to classify news articles. The TF-IDF method is used to convert text data into numerical values that can be used as input for machine learning algorithms.
  
  # Table
- 
+ | English   | translation to | Pirate |
+|-----------|----------------|--------|
+| Hello     | translation    | Ahoy   |
+| Pardon me | translation    | Avast  |
+| Excuse me | translation    | Arr    |
+| Friend    | translation    | Matey  |
  
  	Original_Content 	                                                    New_Content 	                                   Removed_Words
 0 	After reaching his hotel in the city, RM revea... 	reach hotel city RM reveal stay day add step d... 	[After, his, in, the, ,, that, his, would, be,...
