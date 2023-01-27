@@ -11,14 +11,15 @@ The code then uses the sklearn pipeline module to create a classification pipeli
 
  The methodology in this code is using the TF-IDF (term frequency-inverse document frequency) text representation method to classify news articles. The TF-IDF method is used to convert text data into numerical values that can be used as input for machine learning algorithms.
  
- # Table
+ # Table (Selected Top-6)
+ 
+ 
 
-                                                   
-|   | Original Content                                   | New Content                                       | Removed Words                                     |
-|---|----------------------------------------------------|---------------------------------------------------|---------------------------------------------------|
-| 0 | After reaching his hotel in the city, RM revea...  | reach hotel city RM reveal stay day add step d... | [After, his, in, the, ,, that, his, would, be,... |
-| 1 | RM aka Kim Namjoon was the first member to joi...  | RM aka Kim Namjoon member join BTS group relea... | [was, the, first, to, ., The, their, on, ,, .,... |
-| 2 | Billie Eilish's concert was held in Seoul, Sou...  | Billie Eilish concert hold Seoul South Korea a... | ['s, was, in, ,, and, it, was, by, ', and, -, ... |
-| 3 | BTS ARMY y'all would be missing the members a ...  | BTS ARMY you miss member lot right BTS member ... | [all, would, be, the, a, ,, ?, Well, ,, one, o... |
-| 4 | BTS member Kim Seokjin aka Jin has the capacit...  | bts member Kim Seokjin aka Jin capacity create... | [has, the, to, ., This, has, through, so, in, ... |
-| 5 | BTS member J-Hope aka Jung Hoseok has reached ...  | bts member J Hope aka Jung Hoseok reach Chicag... | [-, has, ., He, is, there, for, the, of, the, ... |
+|   | Original Content                                   | New Content                                       | Removed Words                                     | Further Metrics                                    |
+|---|----------------------------------------------------|---------------------------------------------------|---------------------------------------------------|----------------------------------------------------|
+| 0 | After reaching his hotel in the city, RM revea...  | reach hotel city RM reveal stay day add step d... | [After, his, in, the, ,, that, his, would, be,... | precision,    recall,  f1-score,  Confusion Matrix |
+| 1 | RM aka Kim Namjoon was the first member to joi...  | RM aka Kim Namjoon member join BTS group relea... | [was, the, first, to, ., The, their, on, ,, .,... | precision,    recall,  f1-score,  Confusion Matrix |
+| 2 | Billie Eilish's concert was held in Seoul, Sou...  | Billie Eilish concert hold Seoul South Korea a... | ['s, was, in, ,, and, it, was, by, ', and, -, ... | precision,    recall,  f1-score,  Confusion Matrix |
+| 3 | BTS ARMY y'all would be missing the members a ...  | BTS ARMY you miss member lot right BTS member ... | [all, would, be, the, a, ,, ?, Well, ,, one, o... | precision,    recall,  f1-score,  Confusion Matrix |
+| 4 | BTS member Kim Seokjin aka Jin has the capacit...  | bts member Kim Seokjin aka Jin capacity create... | [has, the, to, ., This, has, through, so, in, ... | precision,    recall,  f1-score,  Confusion Matrix |
+| 5 | BTS member J-Hope aka Jung Hoseok has reached ...  | bts member J Hope aka Jung Hoseok reach Chicag... | [-, has, ., He, is, there, for, the, of, the, ... | precision,    recall,  f1-score,  Confusion Matrix |
