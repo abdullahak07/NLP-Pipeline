@@ -1,4 +1,4 @@
-# Text Representation: TF-IDF
+# Text Representation: TF-IDF update
 
 This code is using the TF-IDF text representation method to classify news articles. It starts by importing the necessary libraries, including pandas for data manipulation, numpy for numerical operations, and sklearn for machine learning. The code then imports a dataset, "news.csv", and drops unnecessary columns. The data is then loaded into a dataframe and the dimensions are checked for missing or NaN values, which are then removed. The missing values are then filled with the mean, median, or mode of the dataset using the fillna() function.
 
